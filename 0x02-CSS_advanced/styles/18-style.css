@@ -202,7 +202,7 @@ template {
 
 /* adding a universal box sizing rule.*/
 *, *:before, *:after {
-	box-sizing: inherit;
+	box-sizing: border-box;
 }
 
 html {
