@@ -1,0 +1,14 @@
+/* assigns the margin, padding to body and body p tags*/
+
+@mixin hola{
+  margin: 0px;
+  padding: 0px;
+
+  p {
+	  margin: 10px;
+  }
+}
+
+.body{
+	@include hola
+}
