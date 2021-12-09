@@ -9,7 +9,7 @@ You must use a @for statement
 */
 
 @for $i from 1 through 4 {
-  col#{$i} {
+  .col-#{$i} {
     width: 100% / $i;
   }
 }
