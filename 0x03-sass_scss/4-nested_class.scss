@@ -1,0 +1,13 @@
+/* assigns the color #3D3D3D to body and color #FF0000 TO .red class inside body*/
+
+@mixin prueba{
+  color:#3D3D3D;
+
+  .red {
+	  color:#FF0000;
+  }
+}
+
+body{
+	@include prueba;
+}
