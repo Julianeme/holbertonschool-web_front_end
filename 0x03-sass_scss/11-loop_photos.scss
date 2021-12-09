@@ -1,0 +1,13 @@
+/* creates a class for each name in the list $list-names and assigns the background image based on the name (example below):
+
+You must use @import
+You must use @each statement
+*/
+
+@import 'names';
+
+@each $name in $list-names {
+  .#{$name} {
+    background: image-url($name + ".jpg") no-repeat;
+  }
+}
