@@ -1,0 +1,13 @@
+/* assigns the color #FF0000 to button tags and #00FF00 button tags hover elements*/
+
+@mixin prueba{
+  color:#FF0000;
+
+  &>:hover {
+	  color:#00FF00;
+  }
+}
+
+button{
+	@include prueba;
+}
