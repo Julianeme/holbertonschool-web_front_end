@@ -321,6 +321,7 @@ a:active {
 	color: var(--color-primary);
 	background: var(--color-white);
 }
+
 /* Helpers
     ============================= */
 
@@ -828,7 +829,7 @@ ul.row {
 	padding-left: 7rem;
 }
 
-.section-title {
+.post-comments .section-title {
 	font-variant: small-caps;
 }
 
