@@ -325,13 +325,13 @@ a:active {
 
 @media screen and (max-width: 480px) {
 	html {
-		font-size: 60%;
+		font-size: 57%;
 	}
 }
 
 @media screen and (min-width: 481px)  and (max-width: 767px) {
 	html {
-		font-size: 50%;
+		font-size: 60%;
 	}
 }
 
@@ -658,16 +658,16 @@ ul.row {
 
 /* Section Latest news
       ============================= */
-@media screen and (max-width: 767px) {
-	.section-latest-news .row {
-		flex-direction: column;
-	}
-}
 
 .section-latest-news .row {
 	flex-direction: row-reverse;
 }
 
+@media screen and (max-width: 767px) {
+	.section-latest-news .row {
+		flex-direction: column;
+	}
+}
 /* Section SERVICES
       ============================= */
 
