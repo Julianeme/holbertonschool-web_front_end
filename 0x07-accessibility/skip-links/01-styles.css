@@ -352,7 +352,7 @@ a:active {
 	position: absolute;
 }
 
-.off-screen {
+.skip-link {
 	background: var(--color-black);
 	color: var(--color-white);
 	left: 0;
@@ -369,6 +369,7 @@ a:active {
 	opacity: 1;
 	transform: translateY(0);
 }
+
 /*** 2. LAYOUT ***/
 
 /* Layout
